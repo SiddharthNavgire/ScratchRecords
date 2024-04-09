@@ -1,0 +1,421 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body font */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-image: linear-gradient(to right, #86469C, #2c3e50); /* Gradient from left to right */
+    padding: 20px 40px; /* Adjusted padding to create more space on the right side */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #ffffff; /* Orange */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #ecf0f1; /* Light grey */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-links li a:hover {
+    color: #f1c40f; /* Yellow */
+    animation: scale 0.3s ease-in-out; /* Scale animation on hover */
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Mobile menu */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #ecf0f1; /* Light grey */
+}
+
+.menu-toggle:before {
+    content: "\2630"; /* Hamburger icon (Unicode character) */
+}
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show toggle button on smaller screens */
+    }
+
+    .nav-links {
+        display: none; /* Hide nav links by default on smaller screens */
+        flex-direction: column;
+        text-align: center;
+        background-color: #34495e; /* Dark grey */
+        padding: 10px;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .show-nav {
+        display: block; /* Show nav links when menu is toggled */
+    }
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #FFAF45, #FB6D48, #D74B76, #673F69); /* Gradient from left to right */
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #fff; /* White text color */
+    font-size: 1.1rem;
+}
+
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    border-radius: 20%; /* Make the images circular */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #FFAF45, #FB6D48, #D74B76, #673F69); /* Gradient from left to right */
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #FFAF45, #FB6D48, #D74B76, #673F69); /* Gradient from left to right */
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* asdfghjkl */
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #FFAF45, #FB6D48, #D74B76, #673F69); /* Gradient from left to right */
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #FFAF45, #FB6D48, #D74B76, #673F69); /* Gradient from left to right */
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #FFAF45, #FB6D48, #D74B76, #673F69); /* Gradient from left to right */
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #FFAF45, #FB6D48, #D74B76, #673F69); /* Gradient from left to right */
+    text-align: center;
+}
+
+.section h2 {
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+.section .song-list {
+    display: flex;
+    justify-content: center;
+}
+
+.section .song-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Single column layout by default */
+    align-items: center; /* Center items horizontally */
+}
+
+.section .song-list ul li {
+    margin-bottom: 20px;
+    width: 100%; /* Ensure each item takes full width */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.section .song-list ul li a {
+    display: flex;
+    flex-direction: column; /* Arrange image and text vertically */
+    align-items: center; /* Center items horizontally */
+    text-decoration: none;
+    color: #fff; /* White text color */
+}
+
+.section .song-list ul li img {
+    width: 55%; /* Make images fill their containers */
+    height: auto;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    margin-bottom: 10px;
+}
+
+.section .song-list ul li span {
+    font-size: 1.1rem;
+}
+
+/* Smooth zoom hover animation */
+.section .song-list ul li:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Responsive layout */
+@media screen and (min-width: 768px) {
+    .section .song-list ul {
+        flex-direction: row; /* Switch to multiple columns layout */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: center; /* Center items horizontally */
+    }
+
+    .section .song-list ul li {
+        flex: 0 0 calc(50% - 20px); /* Two columns layout for big screens */
+        max-width: calc(50% - 20px); /* Two columns layout for big screens */
+    }
+}
+
+
+
+
+/* FORM */
+/* Form styles */
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #fff; /* White text color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 55%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px; /* Add margin-top to separate from the label */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f39c12; /* Orange */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e67e22; /* Darker orange on hover */
+}
+
+
+/* Streaming Services section styles */
+#streaming-services {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light grey background */
+    text-align: center;
+}
+
+#streaming-services h2 {
+    color: #333; /* Dark grey text color */
+    margin-bottom: 20px;
+}
+
+/* Services grid styles */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns for large screens */
+    gap: 20px; /* Gap between grid items */
+}
+
+.service {
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.service:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.service a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.service img {
+    max-width: 65%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service h3 {
+    margin-top: 10px;
+    color: #333; /* Dark grey text color */
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for small screens */
+    }
+}
